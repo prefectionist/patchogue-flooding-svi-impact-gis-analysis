@@ -10,20 +10,38 @@ Starting off, I wanted to research what existing analyses were available on the 
 I settled on the Incorporated Village of Patchogue, NY and the three surrounding towns of North Patchgoue, East Patchogue, and Blue Point as the focus of this analysis. With the study area being home to approximately 9.44% of the population of Brookhaven Town and just over 3% of Suffolk County, there would be significant potential social impact from flooding.
 
 ## Methodology & Process
-After the initial question, the next steps were to :
-1. Identify and acquire relevant data sources
+After posing the initial question, the next steps were to :
+1. Identify and acquire relevent:
+  - data sources
+  - polygons, shapefiles, and other map data
 2. Import and clean the data
 3. Analyze the cleaned data
 4. Create visualizations and present findings. 
 
+After obtaining polygons for the focus area. The next steps were to obtain:
+- Social Vulnerability Index (SVI) table and map Data
+- Current and future flood risk data.
+- Sea level rise projections
+- American Community Survey (ACS) 
+- Basemaps from OpenStreetMaps (OSM) using QuickMapServices plugin
+
+
+
+## Sources used
+
+
 ## Tools
 - QGIS
+- CSV
+- GDB (GeoDataBase)
+- Shapefiles
 - Git
 
+## What was learned
+
+
 ### Data Sources
-- [Suffolk County Open Data](https://opendata.suffolkcountyny.gov/)
-
-
+- 'Hamlet_Polygon' - [Suffolk County Open Data](https://opendata.suffolkcountyny.gov/)
 
 ### References
 - [SVI Frequently Asked Questions (FAQs)](https://www.atsdr.cdc.gov/place-health/php/svi/svi-frequently-asked-questions-faqs.html)
