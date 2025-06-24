@@ -25,14 +25,15 @@ After obtaining polygons for the focus area. The next steps were to obtain:
 - American Community Survey (ACS) 
 - Basemaps from OpenStreetMaps (OSM) using QuickMapServices plugin
 
-
+### SVI for New York
+After obtaining the SVI census tract data for New York, I queried the records only pertaining to Suffolk County, NY (FIPS 36103) to improve query performance. Then I JOINed the TIGER tract  
 
 ## Sources used
 
 
 ## Tools
 - QGIS
-- CSV
+- CSV Files
 - GDB (GeoDataBase)
 - Shapefiles
 - Git
@@ -42,6 +43,8 @@ After obtaining polygons for the focus area. The next steps were to obtain:
 
 ### Data Sources
 - 'Hamlet_Polygon' - [Suffolk County Open Data](https://opendata.suffolkcountyny.gov/)
+- [SVI Data for New York](https://www.atsdr.cdc.gov/place-health/php/svi/svi-data-documentation-download.html)
+- [Suffolk County, NY Trac]
 
 ### References
 - [SVI Frequently Asked Questions (FAQs)](https://www.atsdr.cdc.gov/place-health/php/svi/svi-frequently-asked-questions-faqs.html)
